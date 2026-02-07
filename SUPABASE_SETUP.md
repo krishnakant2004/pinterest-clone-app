@@ -1,13 +1,4 @@
 
-
-3. For each bucket, go to **Policies** and add:
-   - Click **New Policy** → **For full customization**
-   - Policy name: `Allow public access`
-   - For ALL operations, add: `true`
-
----
-
-
 ## Supabase Configuration for Pinterest Clone Flutter App
 
 Copy your **Project URL** and **anon public key**.
