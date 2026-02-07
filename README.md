@@ -2,10 +2,6 @@
 
 A pixel-perfect Pinterest clone built with Flutter, showcasing Clean Architecture, state management with Riverpod, and modern UI/UX patterns.
 
-![Flutter](https://img.shields.io/badge/Flutter-3.7.2+-02569B?logo=flutter)
-![Dart](https://img.shields.io/badge/Dart-3.0+-0175C2?logo=dart)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 ## 📱 Features
 
 ### Core Features
