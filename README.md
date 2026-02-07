@@ -2,28 +2,23 @@
 
 A pixel-perfect Pinterest clone built with Flutter, showcasing Clean Architecture, state management with Riverpod, and modern UI/UX patterns.
 
-![Flutter](https://img.shields.io/badge/Flutter-3.7.2+-02569B?logo=flutter)
-![Dart](https://img.shields.io/badge/Dart-3.0+-0175C2?logo=dart)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 ## 📱 Features
 
 ### Core Features
 - **Home Feed**: Pinterest-style masonry grid layout with infinite scroll
 - **Search**: Real-time search with debouncing, trending suggestions, and category filters
 - **Pin Details**: Full-screen pin view with hero animations and sharing capabilities
-- **Create Pin**: Upload and create new pins with board selection
 - **Boards**: Create, manage, and organize pins into boards
 - **Profile**: User profile with created/saved tabs, boards grid, and settings
 
 ### Technical Highlights
-- 🎨 **Pixel-Perfect UI**: Faithful recreation of Pinterest's design system
-- 🏗️ **Clean Architecture**: Separation of concerns with Presentation, Domain, and Data layers
-- 🔄 **State Management**: Riverpod with StateNotifier pattern
-- 🚀 **Performance**: Optimized image loading with caching and shimmer placeholders
-- ✨ **Animations**: Smooth transitions, hero animations, and micro-interactions
-- 🌙 **Dark Mode**: Full light/dark theme support
-- 📱 **Responsive**: Adaptive layouts for different screen sizes
+- **Pixel-Perfect UI**: Faithful recreation of Pinterest's design system
+-  **Clean Architecture**: Separation of concerns with Presentation, Domain, and Data layers
+-  **State Management**: Riverpod with StateNotifier pattern
+-  **Performance**: Optimized image loading with caching and shimmer placeholders
+-  **Animations**: Smooth transitions, hero animations, and micro-interactions
+-  **Dark Mode**: Full light/dark theme support
+-  **Responsive**: Adaptive layouts for different screen sizes
 
 ## 🏛️ Architecture
 
@@ -147,22 +142,3 @@ class ApiConstants {
 ### Theme Configuration
 Edit `lib/core/theme/app_colors.dart` to customize the color palette.
 
-## 📋 Evaluation Criteria
-
-This project is designed to meet the following assessment criteria:
-
-| Criteria | Weight | Implementation |
-|----------|--------|----------------|
-| UI Accuracy | 35% | Pixel-perfect Pinterest recreation |
-| Code Architecture | 25% | Clean Architecture with feature-based modules |
-| Code Quality | 20% | Type safety, documentation, error handling |
-| Performance | 20% | Image caching, lazy loading, optimized rebuilds |
-
-## 📝 License
-
-This project is for educational/assessment purposes only.
-
-## 🙏 Acknowledgments
-
-- [Pexels](https://www.pexels.com) for the free image API
-- [Pinterest](https://www.pinterest.com) for design inspiration
